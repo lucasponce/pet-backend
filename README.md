@@ -1,4 +1,4 @@
-# pet-frontend
+# pet-backend
 Pet Application - Backend project - Services and packaging
 
 # getting started
