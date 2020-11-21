@@ -1,7 +1,5 @@
 name: Epics workflow
-on:
-  schedule:
-    - cron:  '0/5 * * * *'
+on: [issue]
 jobs:
   build:
     runs-on: ubuntu-latest
