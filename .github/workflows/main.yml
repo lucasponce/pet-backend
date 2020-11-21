@@ -4,7 +4,7 @@ on:
     types: [opened, edited, deleted, closed, reopened, labeled]
 jobs:
   build:
-    if: contains(contains(github.event.issue.labels.*.name, 'subepic'))
+    if: contains(github.event.issue.labels.*.name, 'subepic')
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
