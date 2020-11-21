@@ -1,7 +1,7 @@
 name: Epics workflow
 on:
   issues:
-    types: [opened, edited, milestoned]
+    types: [opened, edited, deleted, closed, reopened]
 jobs:
   build:
     runs-on: ubuntu-latest
